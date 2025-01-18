@@ -25,14 +25,12 @@ The performance of the models was evaluated using:
 - **R-squared (\(R^2\))**
 
 ## Results
-- **\(n_{\text{eff}}\) Prediction:**
   - Random Forest outperformed LASSO with an \(R^2\) value of **0.99** compared to **0.9228** for LASSO.
-- **\(A_{\text{eff}}\) Prediction:**
   - LASSO demonstrated better performance, with lower error metrics and a higher \(R^2\) value compared to Random Forest.
 
 ### Key Findings
-1. Random Forest is more suitable for \(n_{\text{eff}}\) prediction due to its higher accuracy and ability to model complex interactions.
-2. LASSO is preferred for \(A_{\text{eff}}\) prediction due to its simplicity and better performance for this specific task.
+1. Random Forest is more suitable for prediction due to its higher accuracy and ability to model complex interactions.
+2. LASSO is preferred for prediction due to its simplicity and better performance for this specific task.
 
 ## Repository Contents
 - **`notebooks/`:** Contains the Colab notebook with code for training and evaluation.
