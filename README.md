@@ -1,9 +1,9 @@
 # Comparison-of-two-ML-algorithms-to-compute-optical-properties-of-photonic-crystal-fiber
 
-This project explores the use of machine learning to predict key optical properties of photonic crystal fibers (PCFs), including the **effective index** (\(n_{\text{eff}}\)) and **effective mode area** (\(A_{\text{eff}}\)).
+This project explores the use of machine learning to predict key optical properties of photonic crystal fibers (PCFs), including the **effective index** and **effective mode area**
 
 ## Overview
-Photonic crystal fibers (PCFs) are critical in various optical applications due to their unique properties. This study leverages two machine learning models, **LASSO** and **Random Forest**, to predict \(n_{\text{eff}}\) and \(A_{\text{eff}}\) based on PCF design parameters.
+Photonic crystal fibers (PCFs) are critical in various optical applications due to their unique properties. This study leverages two machine learning models, **LASSO** and **Random Forest**, to predict n_eff and A_eff based on PCF design parameters.
 
 ## Machine Learning Models
 The following machine learning models were employed:
@@ -12,10 +12,10 @@ The following machine learning models were employed:
 
 ## Dataset
 The models were trained on a synthetic dataset of PCF parameters:
-- **Wavelength:** \(0.5–1.8 \, \mu\text{m}\)
-- **Pitch:** \(0.8–2.0 \, \mu\text{m}\)
-- **Diameter-to-pitch ratio:** \(0.6–0.9\)
-- **Number of air hole rings:** 4 or 5
+- **Wavelength:**
+- **Pitch:**
+- **Diameter-to-pitch ratio:** 
+- **Number of air hole rings:**
 
 ## Performance Metrics
 The performance of the models was evaluated using:
@@ -32,11 +32,6 @@ The performance of the models was evaluated using:
 1. Random Forest is more suitable for prediction due to its higher accuracy and ability to model complex interactions.
 2. LASSO is preferred for prediction due to its simplicity and better performance for this specific task.
 
-## Repository Contents
-- **`notebooks/`:** Contains the Colab notebook with code for training and evaluation.
-- **`data/`:** Synthetic dataset used for the study.
-- **`results/`:** Summary of model evaluation metrics and visualizations.
-- **`README.md`:** Overview of the project.
 
 ## Getting Started
 ### Prerequisites
